@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no" />
+    <title>学科知识竞赛</title>
+    <link rel="stylesheet" type="text/css" href="style/zsjs.css" />
+    <link rel="stylesheet" type="text/css" href="style/anim.css" />
+    <link rel="stylesheet" type="text/css" href="http://360.qk100.com/web/css/v1/inbase.css" />
+    <script type="text/javascript" src="http://360.qk100.com/web/js/jquery.js"></script>
+    <script src="http://360.qk100.com/web/js/common.js"></script>
+</head>
+<body class="zsjs">
+    <div class="hidden-xs">
+        <div class="upper_apex " style="">
+            <div class="container upper_w">
+                <div class="up_logo sxlogo hidden-xs"><a href="http://www.qk100.com" target="_blank">优学360</a></div>
+                <div class="up_close"><a onclick="upclose()"><img src="http://360.qk100.com/web/images/v1/close_an.png"></a></div>
+                <div class="project_name hidden-xs"><img src="http://360.qk100.com/web/images/v1/sx_name.jpg"></div>
+            </div>
+        </div>
+    </div>
+    <div class="warpper2 js-main">
+        <div class="head">
+            <div class="header">
+                <!--右上角登陆框-->
+                <div class="login">
+                    <!--登陆后，认证前-->
+                    <ul>
+                        <li class="fl"><a href="javascript:;" onclick="ShowDiv('MyDiv3','fade3')">优学学员</a></li>
+
+                        <li class="login_name fr"><a href="/sxuser/userinfo/index.do" id="div_pro"><img src="http://360.qk100.com/web/images/people_icon.png">叶可怡</a>
+                        </li>
+                        <!--弹层-->
+                        <div id="name_box" style="display:none;">
+                            <a href="/sxuser/userinfo/index.do">个人中心</a>
+                            <a href="javascript:void(0)" onclick="onexit()">退出</a>
+                        </div>
+                        <!--弹层end-->
+                    </ul>
+                    <!--登陆后，认证前-end-->
+                </div>
+                <!--右上角登陆框-end-->
+                <div class="clear"></div>
+
+                <!--导航-->
+                <ul id="nav_all">
+                    <li><i>|</i><a class="home" href="/index.do?version=1">个人中心</a></li>
+                    <li><i>|</i><a href="/sxuser/learntask/index.do">优学计划</a>
+                        <ul style="display: none;">
+                            <li class="second_nav_l"></li>
+                            <li><a href="/sxuser/learntask/index.do?examType=YX">学前预习</a></li>
+                            <!-- ngIf: true --><li ng-if="true" class="ng-scope"><a href="/sxuser/learntask/index.do?examType=FX">课后复习</a></li><!-- end ngIf: true -->
+                            <!-- ngIf: !true -->
+                            <!-- ngIf: true --><li ng-if="true" class="ng-scope"><a href="/sxuser/learntask/index.do?examType=KH">挑 战</a></li><!-- end ngIf: true -->
+                            <!-- ngIf: !true -->
+                            <li class="second_nav_r"></li>
+                        </ul></li>
+                    <li><i>|</i><a href="/kzwl/index.do?grade=c1">名师教室</a>
+                        <!-- <ul style="display: none;">
+                            <li class="margin"></li>
+                            <li class="second_nav_l"></li>
+                            <li><a href="/kzwl/index.do?grade=c1">初&nbsp;&nbsp;一</a></li>
+                            <li><a href="/kzwl/index.do?grade=c2">初&nbsp;&nbsp;二</a></li>
+                            <li><a href="/kzwl/index.do?grade=c3">初&nbsp;&nbsp;三</a></li>
+                            <li class="second_nav_r"></li>
+                        </ul> -->
+                    </li>
+                    <li><i>|</i><a href="/sxuser/wrongExam/index.do">错题本</a></li>
+                    <li><i>|</i><a href="/ranking/index.do">优<sup>+</sup>榜</a></li>
+                    <li><a href="/sxuser/v1/wrongList.do">学力评估</a></li>
+                </ul>
+                <!--导航-end-->
+            </div>
+        </div>
+        <div class="center2">
+
+            <!-- 小图标 淡入淡出 -->
+            <ul class="icon">
+                <li class="s1"><img src="images/icon/1.png" /></li>
+                <li class="s2"><img src="images/icon/2.png" /></li>
+                <li class="s3"><img src="images/icon/3.png" /></li>
+                <li class="s4"><img src="images/icon/4.png" /></li>
+                <li class="s5"><img src="images/icon/5.png" /></li>
+                <li class="s6"><img src="images/icon/6.png" /></li>
+                <li class="s7"><img src="images/icon/7.png" /></li>
+                <li class="s8"><img src="images/icon/8.png" /></li>
+                <li class="s9"><img src="images/icon/9.png" /></li>
+            </ul>
+
+            <!-- 个性 动画 -->
+            <!-- 1. 小太阳 -->
+            <div class="sun anim-2"><img src="images/sun.png" /></div>
+
+            <!-- 2. 云彩 -->
+            <div class="could">
+                <span class="s1"><img src="images/cloud.png" /></span>
+                <span class="s2"><img src="images/cloud.png" /></span>
+                <span class="s3"><img src="images/cloud.png" /></span>
+            </div>
+
+            <!-- 主体 -->
+            <div class="con">
+                <div class="hd">
+                    <img src="images/title.png"/>
+                    <div class="house">
+                        <img src="images/tree.png" width="20" />
+                        <img src="images/tree.png"/>
+                        <b><img src="images/house.png"/></b>
+                        <img src="images/tree.png"/>
+                        <img src="images/tree.png" width="22" />
+                    </div>
+                </div>
+                <div class="bd">
+                    <img src="images/code.png"/>
+                    <ol>
+                        <li>
+                            <b class="r"><img src="images/step_01_point.png" class="anim-opacity" /><b class="s3"></b></b>
+                            <div class="txt anim-left">
+                                <img src="images/step_01.png" class="s1" />
+                                <img src="images/step_01_text.png" class="s2" />
+                            </div>
+                        </li>
+                        <li>
+                            <b class="r"><img src="images/step_02_point.png" class="anim-opacity" /><b class="s3"></b></b>
+                            <div class="txt anim-left">
+                                <img src="images/step_02.png" class="s1" />
+                                <img src="images/step_02_text.png" class="s2" />
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>版权所有：广东全通教育股份有限公司   地址：中山市东区库充大街一号5楼   客服QQ：1736010022   客服热线：0760-88222691   服务时间：周一至周五08:00-18:00
+            <!-- cnzz统计代码 -->
+            <script type="text/javascript">
+                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://"
+                        : " http://");
+                document
+                        .write(unescape("%3Cspan id='cnzz_stat_icon_1254960578'%3E%3C/span%3E%3Cscript src='"
+                                + cnzz_protocol
+                                + "s4.cnzz.com/z_stat.php%3Fid%3D1254960578%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+            </script><span id="cnzz_stat_icon_1254960578"><a href="http://www.cnzz.com/stat/website.php?web_id=1254960578" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic1.gif"></a></span><script src=" http://s4.cnzz.com/z_stat.php?id=1254960578&amp;show=pic1" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1254960578&amp;show=pic1&amp;t=z" charset="utf-8" type="text/javascript"></script>
+        </p>
+    </div>
+    <div class="dialog-1"></div>
+    <script type="text/javascript" src="script/hjhd.js"></script>
+
+</body>
+</html>

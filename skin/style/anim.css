@@ -1,0 +1,73 @@
+
+.anim-opacity {
+    animation: sk1 2s linear 6s infinite;
+    position: relative;
+}
+@keyframes sk1{
+    0%{opacity:.2}
+    25%{ opacity:.5}
+    40%{ opacity:1}
+    60%{ opacity:1}
+    75%{ opacity:.5}
+    100%{opacity:.2}
+}
+@keyframes opacity2{
+    0%{opacity:.2}
+    100%{opacity:1}
+}
+.anim-2 {
+    animation: rotating 3s linear infinite;
+}
+@keyframes rotating {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+.house>img{animation: scale1 6s linear;transform-origin: bottom center;animation-fill-mode: forwards;}
+@keyframes scale1 {
+    from {
+        transform: scale(.1)
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.con li:nth-child(1) .txt{opacity:0;animation: move1 1s linear 1s;animation-fill-mode: forwards;}
+.con li:nth-child(2) .txt{opacity:0;animation: move2 1s linear 2s;animation-fill-mode: forwards;}
+@keyframes move1 {
+    0% {
+        transform: translate(303px);
+        opacity:0;
+    }
+    90%{
+        opacity:1;
+        transform: translate(-10px);
+    }
+    100% {
+        transform: translate(0px);
+        opacity:1
+    }
+}
+@keyframes move2 {
+    0% {
+        transform: translate(-303px);
+        opacity:0;
+    }
+    90%{
+        transform: translate(10px);
+        opacity:1;
+        }
+    100% {
+        transform: translate(0px);
+        opacity:1
+    }
+}
+
+
+
+
+
+
