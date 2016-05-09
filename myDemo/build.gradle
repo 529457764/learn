@@ -1,0 +1,41 @@
+group 'com.qt'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    //spring
+    compile 'org.springframework:spring-context:4.2.5.RELEASE',
+            'org.springframework:spring-core:4.2.5.RELEASE',
+            'org.springframework:spring-web:4.2.5.RELEASE',
+            'org.springframework:spring-oxm:4.2.5.RELEASE',
+            'org.springframework:spring-tx:4.2.5.RELEASE',
+            'org.springframework:spring-jdbc:4.2.5.RELEASE',
+            'org.springframework:spring-webmvc:4.2.5.RELEASE',
+            'org.springframework:spring-aop:4.2.5.RELEASE',
+            'org.springframework:spring-context-support:4.2.5.RELEASE',
+            'org.springframework:spring-test:4.2.5.RELEASE',
+            //servlet
+            'javax.servlet:javax.servlet-api:4.0.0-b01',
+            //dom4j
+            'dom4j:dom4j:1.6.1',
+            //xstream
+            'com.thoughtworks.xstream:xstream:1.4.9',
+            //json
+            'net.sf.json-lib:json-lib-ext-spring:1.0.2',
+            //httpClient
+            'org.apache.httpcomponents:httpclient:4.2.5',//最新版4.5.2
+            //alibaba.fastjson
+            'com.alibaba:fastjson:1.2.8',
+            //jackson
+            'org.codehaus.jackson:jackson-core-asl:1.9.13',
+            'org.codehaus.jackson:jackson-mapper-lgpl:1.9.13'
+}
