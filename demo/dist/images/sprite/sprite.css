@@ -1,0 +1,108 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-about_pic {
+  background-image: url(sprite.png);
+  background-position: 0px -227px;
+  width: 290px;
+  height: 87px;
+}
+.icon-badge_01 {
+  background-image: url(sprite.png);
+  background-position: -616px -183px;
+  width: 74px;
+  height: 79px;
+}
+.icon-balloon_red {
+  background-image: url(sprite.png);
+  background-position: 0px -435px;
+  width: 96px;
+  height: 120px;
+}
+.icon-balloon_yellow {
+  background-image: url(sprite.png);
+  background-position: -616px 0px;
+  width: 74px;
+  height: 92px;
+}
+.icon-bottle_01 {
+  background-image: url(sprite.png);
+  background-position: -96px -435px;
+  width: 98px;
+  height: 98px;
+}
+.icon-brush_01 {
+  background-image: url(sprite.png);
+  background-position: -616px -92px;
+  width: 74px;
+  height: 91px;
+}
+.icon-clock_01 {
+  background-image: url(sprite.png);
+  background-position: -616px -262px;
+  width: 68px;
+  height: 68px;
+}
+.icon-cloud {
+  background-image: url(sprite.png);
+  background-position: -289px -314px;
+  width: 149px;
+  height: 79px;
+}
+.icon-mainTitle {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 616px;
+  height: 227px;
+}
+.icon-pencil_01 {
+  background-image: url(sprite.png);
+  background-position: -194px -435px;
+  width: 100px;
+  height: 87px;
+}
+.icon-school_01 {
+  background-image: url(sprite.png);
+  background-position: -290px -227px;
+  width: 259px;
+  height: 81px;
+}
+.icon-step_01 {
+  background-image: url(sprite.png);
+  background-position: -145px -314px;
+  width: 144px;
+  height: 120px;
+}
+.icon-step_02 {
+  background-image: url(sprite.png);
+  background-position: 0px -314px;
+  width: 145px;
+  height: 121px;
+}
+.icon-sun_01 {
+  background-image: url(sprite.png);
+  background-position: -616px -398px;
+  width: 57px;
+  height: 57px;
+}
+.icon-triangle {
+  background-image: url(sprite.png);
+  background-position: -616px -330px;
+  width: 66px;
+  height: 68px;
+}

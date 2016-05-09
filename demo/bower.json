@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "authors": [
+    "defore <529457764@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bingo.js": "*"
+  }
+}
