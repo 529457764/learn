@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "authors": [
+    "defore <529457764@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "avalon": "^2.0.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": ["dist/css/bootstrap.min.css", "dist/js/bootstrap.js"]
+    },
+    "avalon": {
+      "main": ["dist/avalon.js"]
+    }
+  }
+}
