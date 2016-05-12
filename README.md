@@ -5,7 +5,7 @@ react视频网盘地址：http://yun.baidu.com/s/1sjoeLe1#path=%252F%25E6%2588%2
 
 尝试使用yeoman搭建项目骨架
 安装：
-#npm install -g generator-gulp-webapp
+*npm install -g generator-gulp-webapp
 创建项目：
-#mkdir 项目名 && cd 项目名
-#yo gulp-webapp //可以选择配置sass，bootstrap，modernizr
+*mkdir 项目名 && cd 项目名
+*yo gulp-webapp //可以选择配置sass，bootstrap，modernizr
