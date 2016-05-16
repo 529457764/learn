@@ -59,3 +59,7 @@ benchmarks/graphs
 
 #idea
 .idea*
+**/.idea/**/*
+
+#class
+*.class
