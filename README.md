@@ -9,3 +9,5 @@ npm install -g generator-gulp-webapp
 ####创建项目：
 mkdir 项目名 && cd 项目名
 yo gulp-webapp //可以选择配置sass，bootstrap，modernizr
+
+#finish my job！！！
